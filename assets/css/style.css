@@ -1,3 +1,5 @@
+/*RECENT COMMIT - CHECKING*/
+
 body {
 	background-color: white;
 	padding: 0;
@@ -41,7 +43,7 @@ body {
 	width: 100%;
 	text-align: center;
 	padding-top: 20%;
-	margin-bottom: -1.4%;
+	/*margin-bottom: -1.4%;*/
 	background-color: #2d2b2b;
 	color: white;
 	border: none;
@@ -52,7 +54,7 @@ body {
 	width: 100%;
 	text-align: center;
 	background-color: #efecea;
-	/*padding-top: 11%;*/
+	margin-top: -2.0%;
 	font-family: 'ABeeZee', sans-serif;
 	padding-top: 4%;
 }
@@ -135,13 +137,13 @@ body {
 @media (max-width: 767px) {
    .jumbotron {
    		padding-top: 50%;
-   		margin-bottom: -5%;
+   		/*margin-bottom: -5%*/;
    }
 
    .introduction {
    		height: 200%;
-   		padding-bottom: 15px;
-   		/*margin-bottom: -2.5%;*/
+   		padding-bottom: 15px; 
+   		margin-top: -10%;
    		padding-top: 10%;
    }
 
