@@ -15,6 +15,30 @@ body {
 /*css settings for jumbotron for laptops/desktops/tablets*/
 
 
+#red {
+	color: red;
+}
+
+#green {
+	color: green;
+}
+
+#blue {
+	color: blue;
+}
+
+.projects h1 {
+	font-size: 42px;
+}
+
+.projects p {
+	font-size: 16px;
+}
+
+
+
+
+
 .navbar {
 	font-family: 'Cinzel', serif;
 	background: #689bed;
