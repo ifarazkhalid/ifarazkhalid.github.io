@@ -15,7 +15,7 @@ body {
 /*css settings for jumbotron for laptops/desktops/tablets*/
 
 #red {
-	color: red;
+	color: red !important;
 }
 
 #green {
