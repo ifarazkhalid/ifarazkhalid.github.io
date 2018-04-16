@@ -11,6 +11,7 @@ h1 {
   text-decoration: underline;
 }
 
+
 p {
   font-family: 'Bangers', cursive;
   text-align: center;
@@ -21,6 +22,12 @@ p {
 #bold {
   color: #abaeba;
   text-decoration: underline;
+}
+
+#hello {
+  color: #606784;
+  font-family: 'Luckiest Guy', cursive;
+  font-size: 25px;
 }
 
 img {
