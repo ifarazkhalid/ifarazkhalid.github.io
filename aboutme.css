@@ -1,0 +1,44 @@
+body {
+  background: #262626;
+  color: #ce6635;
+}
+
+h1 {
+  text-align: center;
+  color: #606784;
+  font-family: 'Luckiest Guy', cursive;
+  font-size: 50px;
+  text-decoration: underline;
+}
+
+p {
+  font-family: 'Bangers', cursive;
+  text-align: center;
+  line-height: 2em;
+  font-size: 20px;
+}
+
+#bold {
+  color: #abaeba;
+  text-decoration: underline;
+}
+
+img {
+  height: 30px;
+  width: 30px;
+}
+
+.btn {
+  color: #fff;
+  text-decoration: none;
+  border: #ccc 1px solid;
+  padding: 10px 15px;
+  border-radius: 8px;
+  line-height: 4em;
+  margin-left: 10px;
+}
+
+.btn:hover {
+  background: white;
+  color: black;
+}
