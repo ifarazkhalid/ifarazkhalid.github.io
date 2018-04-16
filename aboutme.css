@@ -1,6 +1,6 @@
 body {
   background: #262626;
-  color: #ce6635;
+  color: #efefef;
 }
 
 h1 {
@@ -13,15 +13,15 @@ h1 {
 
 
 p {
-  font-family: 'Bangers', cursive;
+  font-family: 'Josefin Sans', sans-serif;
   text-align: center;
   line-height: 2em;
   font-size: 20px;
 }
 
 #bold {
-  color: #abaeba;
-  text-decoration: underline;
+  /* color: #abaeba; */
+  /* text-decoration: underline; */
 }
 
 #hello {
