@@ -1,12 +1,26 @@
-body {
-  background: #262626;
-  font-family: 'Righteous', cursive;
+.jumbotron{
+
+  background: #262626 !important;
+  color: #efefef !important;
 }
 
-.midpost {
-color: #f9f3f4;
-position: absolute;
-text-align: center;
-top: 30%;
-width: 100%;
+.row {
+  align-content: center;
+  text-align: center;
+}
+
+img{
+  width: 200px;
+}
+
+h1 {
+  font-family: 'Luckies Guy', cursive !important;
+}
+
+h3 {
+  font-family: 'Luckies Guy', cursive !important;
+}
+
+p {
+    font-family: 'Josefin Sans', sans-serif !important;
 }
