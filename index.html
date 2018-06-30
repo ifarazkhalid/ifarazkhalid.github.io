@@ -4,27 +4,70 @@
   <head>
     <meta charset="utf-8">
     <title>Faraz Khalid</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+    <link rel="stylesheet" href="aos/aos.css">
   </head>
   <body>
-    <!-- This is the code that makes the particles.JS library work. (Background) -->
-      <div id="particles-js">
 
-          <div class="btext">
-            <h1 id="name">Faraz Khalid</h1>
-            <p id="intro">Software Engineering Student</p>
-            <a href="aboutme/aboutme.html" class="btn">About Me</a>
-            <a href="projects/projects.html" class="btn">Projects</a>
-            <a href="blog/blog.html" class="btn">Blog</a>
-            <a href="https://farazkhalid2.typeform.com/to/H0qYp3" class="btn">Contact Me</a>
-          </div>
+    <div class="jumbotron jumbotron-fluid introduction">
+  <div class="container">
+    <h1 class="display-4" data-aos="flip-down">Hi. Thank you for visiting my website.</h1>
+    <p class="lead" data-aos="flip-down">
+      I'm Faraz, a software engineering student with passion for and experience in data analytics,
+      machine learning and web development.
+    </p>
+    <!-- <img data-aos="flip-down" class="pakistanlogo" src="farazkz.jpg" alt=""> -->
+    <a href="#projects" class="btn btn-primary btn-lg active projectbutton" data-aos = "flip-left" role="button">Click here for projects!</a>
+  </div>
+</div>
 
-      </div>
+
+<div class="jumbotron jumbotron-fluid projects" id="projects">
+  <h1 class="display-4 projectheading">Projects</h1>
+    <div class="firstproject">
+      <img data-aos="flip-down" class="picslogo" src="comment.png" alt="">
+      <h2>Toxic Comment Classification - Data Analysis</h2>
+      <p>
+        Created a model that classified a comment into six categories of toxicity.<br>
+        Technologies Used: AWS, Apache Spark, Python, R, MySQL, Power BI, Tableau.
+      </p>
+    </div>
+
+    <div class="firstproject">
+      <img data-aos="flip-down" class="picslogo" src="rgbcolorgame.png" alt="">
+      <h2>RGB Color Game - Web Application</h2>
+      <p>
+        Created a model that classified a comment into six categories of toxicity.<br>
+        Technologies Used: AWS, Apache Spark, Python, R, MySQL, Power BI, Tableau.
+      </p>
+
+    </div>
+
+    <div class="firstproject">
+      <img class="picslogo" src="house_animation.gif" alt="">
+      <h2>House Price Predictor - Data Analysis</h2>
+      <p>
+        Created a model that classified a comment into six categories of toxicity.<br>
+        Technologies Used: AWS, Apache Spark, Python, R, MySQL, Power BI, Tableau.
+      </p>
+
+    </div>
+
+</div>
 
 
-      <!-- libraries attached for particle.js -->
-      <script type="text/javascript" src="particles.js"></script>
-      <script type="text/javascript" src="app.js"></script>
+
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="aos/aos.js"></script>
+    <script>
+      AOS.init({
+      duration: 1200,
+      });
+    </script>
   </body>
 </html>

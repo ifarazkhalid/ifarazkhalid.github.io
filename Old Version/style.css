@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  /* padding: 0;
+  height: 100vh; */
+  font-family: 'Righteous', cursive;
+}
+
+#name {
+  font-size: 70px;
+}
+
+#intro {
+  font-size: 15px;
+}
+
+/* Div inside the  */
+.btext {
+  color: #f9f3f4;
+  position: absolute;
+  text-align: center;
+  top: 30%;
+  width: 100%;
+}
+
+.btn {
+  color: #fff;
+  text-decoration: none;
+  border: #ccc 1px solid;
+  padding: 10px 15px;
+  border-radius: 8px;
+  line-height: 4em;
+  margin-left: 10px;
+}
+
+a:hover {
+  background: white;
+  color: black;
+}
+
+#particles-js {
+  height: 100vh;
+  background: #262626;
+}
