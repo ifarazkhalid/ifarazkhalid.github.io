@@ -1,0 +1,29 @@
+// start _social.scss
+
+.links {
+	margin: 0 auto;
+	padding: 0;
+	
+	list-style: none;
+
+	li {
+		display: inline-block;
+		margin: 0 em(6px) 0 0;
+
+		font-size: em(24px);
+		opacity: 0.66;
+
+		@include transition(all, $animation-speed--default);
+
+		&:hover {
+			opacity: 1;
+		}
+	}
+}
+
+span.i-github {
+	background: url('../assets/icons/github.svg') no-repeat center center;
+	background-size: contain;
+}
+
+// end _social.scss

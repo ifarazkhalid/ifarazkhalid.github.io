@@ -1,0 +1,54 @@
+// start _layout.scss
+
+html, body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+
+	// Fallback
+	background-color: $color-white--0;
+}
+
+hr {
+	width: 100%;
+	height: em(2px);
+	margin: em(72px) auto;
+
+	background: $color-white--1;
+	opacity: 0.66;
+}
+
+.intro {
+	text-align: center;
+
+	img {
+		width: em(175px);
+		margin: em(80px) auto em(16px) auto;
+
+		border-radius: 50%;
+	}
+}
+
+.contact {
+	p {
+		margin: em(16px) auto em(64px) auto;
+		text-align: center;
+	}
+}
+.container {
+	width: 80%;
+	max-width: em(920px);
+	margin: 0 auto;
+	padding: 0 em(48px);
+
+	@media screen and (max-width: $bp-lg) {
+		width: 90%;
+	}
+
+	@media screen and (max-width: $bp-md) {
+		width: 100%;
+	}
+}
+
+// end _layout.scss
